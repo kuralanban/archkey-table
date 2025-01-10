@@ -1,20 +1,20 @@
 .mat-row-sticky {
     position: sticky;
-    top: 56px; /* Adjust according to the header height */
-    left: 0; /* Ensures the row sticks to the left */
-    z-index: 10; /* Keep the row above other content */
-    background-color: #fff; /* Makes sure the row is visible */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    top: 56px; 
+    left: 0; 
+    z-index: 10; 
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   }
   
-  /* Styling for the header cell */
+
   .mat-table-sticky-header {
     position: sticky;
     top: 0;
     z-index: 20; 
     background-color: #fff;
     border-bottom: 2px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for the header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   

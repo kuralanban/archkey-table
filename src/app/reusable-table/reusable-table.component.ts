@@ -55,5 +55,11 @@ export class ReusableTableComponent <T extends { [key: string]: any }> implement
   isStickyColumn(column: string): boolean {
     return this.stickyColumns.includes(column);
   }
+  getMoreDetailsKeys(details: any[]): string[] {
+    if (!details || details.length === 0) {
+      return [];
+    }
+    return Object.keys(details[0]); 
+  }
   
 }
